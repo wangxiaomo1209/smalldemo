@@ -79,34 +79,36 @@ export default {
 .icons >>> .swiper-container
   height:0
   padding-bottom:50%
-.icon
-  width:25%
-  height:0
-  padding-bottom :25%
-  position: relative
-  float: left
-  overflow: hidden
-  .icon-img
-    position :absolute
-    top:0
-    right:0
-    left:0
-    bottom:.44rem
-    right:0
-    box-sizing:border-box
-    padding:.1rem
-    .icon-imgcontent
-      height:100%
-      display:block
-      margin: 0 auto
-  .icon-desc
-    position :absolute
-    right:0
-    left:0
-    bottom 0
-    line-height:.44rem
-    height:.44rem
-    text-align:center
-    color:$darkTextColor
-    ellipsis()
+.icons
+  margin-top .2rem
+  .icon
+    width:25%
+    height:0
+    padding-bottom :25%
+    position: relative
+    float: left
+    overflow: hidden
+    .icon-img
+      position :absolute
+      top:0
+      right:0
+      left:0
+      bottom:.44rem
+      right:0
+      box-sizing:border-box
+      padding:.1rem
+      .icon-imgcontent
+        height:100%
+        display:block
+        margin: 0 auto
+    .icon-desc
+      position :absolute
+      right:0
+      left:0
+      bottom 0
+      line-height:.44rem
+      height:.44rem
+      text-align:center
+      color:$darkTextColor
+      ellipsis()
 </style>
