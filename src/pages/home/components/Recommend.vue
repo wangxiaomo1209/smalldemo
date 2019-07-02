@@ -2,7 +2,13 @@
   <div>
     <div class="title">猜你喜欢</div>
     <ul>
-      <li class="item border-bottom" v-for="item of list" :key="item.id">
+      <router-link
+        tag="li"
+        class="item border-bottom"
+        v-for="item of list"
+        :key="item.id"
+        :to="'/detail/' + item.id"
+      >
         <img class="item-img" :src="item.imgUrl" alt="">
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -12,7 +18,7 @@
             <span class="item-place">{{item.place}}</span>
           </p>
         </div>
-      </li>
+      </router-link>
     </ul>
   </div>
 </template>
