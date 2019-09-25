@@ -1,0 +1,23 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "西溪国家湿地洪园",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1907/fe/fe656739f7f059c1a3.water.jpg_600x330_7867789e.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1904/e9/e9ced6c1b045f403a3.water.jpg_r_800x800_31f80f60.jpg", "http://img1.qunarzz.com/sight/p0/1904/69/692baba3d595f214a3.water.jpg_r_800x800_1369d9bc.jpg"],
+    "categoryList": [{
+        "title": "推荐",
+        "children": [{
+          "title": "西溪湿地成人门车船联票",
+          "children": [{
+            "title": "西溪湿地成人门车船联票(龙蛇嘴主入口)"
+          }]
+        },{
+          "title": "西溪湿地成人门票"
+        }]
+      }, {
+        "title": "门票"
+      }, {
+        "title": "一日游"
+      }]
+  }
+}
